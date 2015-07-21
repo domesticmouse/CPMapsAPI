@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5ED73CE1B5DFCDA009FD221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED73CD1B5DFCDA009FD221 /* AppDelegate.swift */; };
+		D5ED73D01B5DFCDA009FD221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED73CF1B5DFCDA009FD221 /* ViewController.swift */; };
+		D5ED73D31B5DFCDA009FD221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5ED73D11B5DFCDA009FD221 /* Main.storyboard */; };
+		D5ED73D51B5DFCDA009FD221 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5ED73D41B5DFCDA009FD221 /* Images.xcassets */; };
+		D5ED73D81B5DFCDA009FD221 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5ED73D61B5DFCDA009FD221 /* LaunchScreen.xib */; };
+		D5ED73E41B5DFCDA009FD221 /* DaycareIQ_Child_Care_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED73E31B5DFCDA009FD221 /* DaycareIQ_Child_Care_LocatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5ED73DE1B5DFCDA009FD221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5ED73C01B5DFCDA009FD221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5ED73C71B5DFCDA009FD221;
+			remoteInfo = "DaycareIQ Child Care Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5ED73C81B5DFCDA009FD221 /* DaycareIQ Child Care Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DaycareIQ Child Care Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5ED73CC1B5DFCDA009FD221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5ED73CD1B5DFCDA009FD221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5ED73CF1B5DFCDA009FD221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5ED73D21B5DFCDA009FD221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5ED73D41B5DFCDA009FD221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5ED73D71B5DFCDA009FD221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D5ED73DD1B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DaycareIQ Child Care LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5ED73E21B5DFCDA009FD221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5ED73E31B5DFCDA009FD221 /* DaycareIQ_Child_Care_LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaycareIQ_Child_Care_LocatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5ED73C51B5DFCDA009FD221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5ED73DA1B5DFCDA009FD221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5ED73BF1B5DFCDA009FD221 = {
+			isa = PBXGroup;
+			children = (
+				D5ED73CA1B5DFCDA009FD221 /* DaycareIQ Child Care Locator */,
+				D5ED73E01B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests */,
+				D5ED73C91B5DFCDA009FD221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5ED73C91B5DFCDA009FD221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED73C81B5DFCDA009FD221 /* DaycareIQ Child Care Locator.app */,
+				D5ED73DD1B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5ED73CA1B5DFCDA009FD221 /* DaycareIQ Child Care Locator */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED73CD1B5DFCDA009FD221 /* AppDelegate.swift */,
+				D5ED73CF1B5DFCDA009FD221 /* ViewController.swift */,
+				D5ED73D11B5DFCDA009FD221 /* Main.storyboard */,
+				D5ED73D41B5DFCDA009FD221 /* Images.xcassets */,
+				D5ED73D61B5DFCDA009FD221 /* LaunchScreen.xib */,
+				D5ED73CB1B5DFCDA009FD221 /* Supporting Files */,
+			);
+			path = "DaycareIQ Child Care Locator";
+			sourceTree = "<group>";
+		};
+		D5ED73CB1B5DFCDA009FD221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED73CC1B5DFCDA009FD221 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5ED73E01B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED73E31B5DFCDA009FD221 /* DaycareIQ_Child_Care_LocatorTests.swift */,
+				D5ED73E11B5DFCDA009FD221 /* Supporting Files */,
+			);
+			path = "DaycareIQ Child Care LocatorTests";
+			sourceTree = "<group>";
+		};
+		D5ED73E11B5DFCDA009FD221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ED73E21B5DFCDA009FD221 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5ED73C71B5DFCDA009FD221 /* DaycareIQ Child Care Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5ED73E71B5DFCDA009FD221 /* Build configuration list for PBXNativeTarget "DaycareIQ Child Care Locator" */;
+			buildPhases = (
+				D5ED73C41B5DFCDA009FD221 /* Sources */,
+				D5ED73C51B5DFCDA009FD221 /* Frameworks */,
+				D5ED73C61B5DFCDA009FD221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DaycareIQ Child Care Locator";
+			productName = "DaycareIQ Child Care Locator";
+			productReference = D5ED73C81B5DFCDA009FD221 /* DaycareIQ Child Care Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5ED73DC1B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5ED73EA1B5DFCDA009FD221 /* Build configuration list for PBXNativeTarget "DaycareIQ Child Care LocatorTests" */;
+			buildPhases = (
+				D5ED73D91B5DFCDA009FD221 /* Sources */,
+				D5ED73DA1B5DFCDA009FD221 /* Frameworks */,
+				D5ED73DB1B5DFCDA009FD221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5ED73DF1B5DFCDA009FD221 /* PBXTargetDependency */,
+			);
+			name = "DaycareIQ Child Care LocatorTests";
+			productName = "DaycareIQ Child Care LocatorTests";
+			productReference = D5ED73DD1B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5ED73C01B5DFCDA009FD221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DaycareIQ;
+				TargetAttributes = {
+					D5ED73C71B5DFCDA009FD221 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D5ED73DC1B5DFCDA009FD221 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D5ED73C71B5DFCDA009FD221;
+					};
+				};
+			};
+			buildConfigurationList = D5ED73C31B5DFCDA009FD221 /* Build configuration list for PBXProject "DaycareIQ Child Care Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5ED73BF1B5DFCDA009FD221;
+			productRefGroup = D5ED73C91B5DFCDA009FD221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5ED73C71B5DFCDA009FD221 /* DaycareIQ Child Care Locator */,
+				D5ED73DC1B5DFCDA009FD221 /* DaycareIQ Child Care LocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5ED73C61B5DFCDA009FD221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ED73D31B5DFCDA009FD221 /* Main.storyboard in Resources */,
+				D5ED73D81B5DFCDA009FD221 /* LaunchScreen.xib in Resources */,
+				D5ED73D51B5DFCDA009FD221 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5ED73DB1B5DFCDA009FD221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5ED73C41B5DFCDA009FD221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ED73D01B5DFCDA009FD221 /* ViewController.swift in Sources */,
+				D5ED73CE1B5DFCDA009FD221 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5ED73D91B5DFCDA009FD221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ED73E41B5DFCDA009FD221 /* DaycareIQ_Child_Care_LocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5ED73DF1B5DFCDA009FD221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5ED73C71B5DFCDA009FD221 /* DaycareIQ Child Care Locator */;
+			targetProxy = D5ED73DE1B5DFCDA009FD221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5ED73D11B5DFCDA009FD221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5ED73D21B5DFCDA009FD221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5ED73D61B5DFCDA009FD221 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5ED73D71B5DFCDA009FD221 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5ED73E51B5DFCDA009FD221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5ED73E61B5DFCDA009FD221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5ED73E81B5DFCDA009FD221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DaycareIQ Child Care Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5ED73E91B5DFCDA009FD221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DaycareIQ Child Care Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5ED73EB1B5DFCDA009FD221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DaycareIQ Child Care LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaycareIQ Child Care Locator.app/DaycareIQ Child Care Locator";
+			};
+			name = Debug;
+		};
+		D5ED73EC1B5DFCDA009FD221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DaycareIQ Child Care LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaycareIQ Child Care Locator.app/DaycareIQ Child Care Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5ED73C31B5DFCDA009FD221 /* Build configuration list for PBXProject "DaycareIQ Child Care Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5ED73E51B5DFCDA009FD221 /* Debug */,
+				D5ED73E61B5DFCDA009FD221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5ED73E71B5DFCDA009FD221 /* Build configuration list for PBXNativeTarget "DaycareIQ Child Care Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5ED73E81B5DFCDA009FD221 /* Debug */,
+				D5ED73E91B5DFCDA009FD221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5ED73EA1B5DFCDA009FD221 /* Build configuration list for PBXNativeTarget "DaycareIQ Child Care LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5ED73EB1B5DFCDA009FD221 /* Debug */,
+				D5ED73EC1B5DFCDA009FD221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5ED73C01B5DFCDA009FD221 /* Project object */;
+}
