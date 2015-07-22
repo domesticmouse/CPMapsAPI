@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD7A8C32-9C23-4DB5-A5ED-CD4C105111B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DaycareIQ Child Care Locator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE52D7E66766BD3959811FAAC5A9B930C0E2B0E8</key>
+		<string>https://github.com/craigpearce5/CPMapsAPI.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DaycareIQ Child Care Locator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE52D7E66766BD3959811FAAC5A9B930C0E2B0E8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/craigpearce5/CPMapsAPI.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE52D7E66766BD3959811FAAC5A9B930C0E2B0E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE52D7E66766BD3959811FAAC5A9B930C0E2B0E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DaycareIQ%20Child%20Care%20Locator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
